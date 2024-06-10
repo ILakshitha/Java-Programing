@@ -8,7 +8,7 @@ public class kamal extends nimal{
     }
 
     public static void main(String[] args) {
-        kamal k = new kamal();
+        kamal k = new kamal() ;
 
     }
 }

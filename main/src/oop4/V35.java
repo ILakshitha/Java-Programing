@@ -10,6 +10,28 @@ class C extends V{
     }
 }
 
+class student{
+    String name;
+    int age;
+    String school;
+
+    student(String name, int age, String school) {
+        this.name = name;
+        this.age = age;
+        this.school = school;
+
+    }
+}
+
+class Ishan extends student{
+    int markes;
+    Ishan(String name, int age, String school, int markes){
+      super(name, age, school);
+      this.markes = markes;
+
+    }
+}
+
 public class V35 {
 
 
@@ -17,5 +39,6 @@ public class V35 {
     public static void main(String[] args) {
         C lucky = new C();
         lucky.print();
+        Ishan obj= new Ishan("mama",23,"pd",87);
     }
 }

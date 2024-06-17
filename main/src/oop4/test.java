@@ -1,4 +1,5 @@
 package oop4;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class test {
@@ -15,6 +16,7 @@ public class test {
             System.out.println(c);
         }catch (Exception e){
             System.out.println(e);
+
 
         }
         finally {
